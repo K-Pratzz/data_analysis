@@ -35,7 +35,7 @@ condition=[
 values=["Fail","Pass"]
 df["Result"]=np.select(condition,values,default="No Grade")
 #print(df["Average Grade"].head(6))
-print(df["Result"].tail(20))
+#print(df["Result"].tail(20))
 #Created a result colmun with pass/fail
 
 #print(df.value_counts("Father Job"))
