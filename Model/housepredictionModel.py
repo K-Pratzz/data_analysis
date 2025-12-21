@@ -92,3 +92,5 @@ plt.scatter(xm,y_test)
 plt.plot(xm,y_pred)
 plt.show()
 '''
+import joblib as jb
+jb.dump(pipe,"House_Model.pkl")
