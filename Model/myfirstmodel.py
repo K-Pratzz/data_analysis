@@ -42,7 +42,7 @@ first=model.predict([[3,1]])
 print(first) #[13.00780641]
 
 second=model.predict([[1,3]])
-print(second) #[9.95087664]
+print(second) #[9.95087664]=
 
 import joblib
 joblib.dump(model,"Student_model.pkl")

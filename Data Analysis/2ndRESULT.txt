@@ -1,0 +1,11 @@
+Corrrelation Heatmap : Area,Bathroom, Air Conditioning, Bedroom shows strong +ve correlation with price, Hotwater heating and Guestrrom have mild +ve correlation with price
+
+Distribution : Box and Violin plot shows that homes with more bathrooms and bedrooms generally cost more.
+
+Countplot : most houses have No air Conditioning, no water heating nor Guestroom, Most are Semi-furnished, few are furnished. Most houses have 1 Bathroom and 3 Bedrooms
+
+Area vs price : Regression plot and scatter plot indicates that Price and area are positively correlated but with noticeable noise (price depends on multiple other factors )
+
+Guestrrom availability and furnishing status strongly influence price.
+
+

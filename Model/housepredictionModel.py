@@ -20,10 +20,14 @@ pipe=Pipeline([
     ("scale",StandardScaler()),
     ("model",Ridge(alpha=0.1))
 ])
+#score=pipe.score(x_test,y_test)
+#print(score)
 m=[[3,2,1,6000,2]]
 pipe.fit(x_train,y_train)
+print(pipe.named_steps['model'].intercept_)
+print(pipe.named_steps['model'].coef_)
 y_pred=pipe.predict(m)
-print(y_pred)
+#print(y_pred)
 
 #NO PIPELINES(OR REGULARAZIATION/SCALING USED)
 
